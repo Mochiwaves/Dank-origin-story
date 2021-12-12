@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header Styles Start*/
+header {
+    background-color: rgb(48, 46, 61);
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 10px 30px 10px 0;
+
+}
+
+header h1 {
+    background-color: cyan;
+    color: rgb(48, 46, 61);
+    padding: 10px 0 10px 10rem;
+}
+
+header a {
+    text-decoration: none;
+    color: cyan;
+}
+
+header nav ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav ul li a {
+    padding: 0;
+    font-size: 17px;
+    border-bottom: 2px solid;
+    margin: 10px;
+}
+
+/*Header Styles End*/
+
+.subtitle-bg {
+    background-image: url("../images/wood-bg.jpg");
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+}
+
+.subtitle-line {
+    background-color: cyan;
+    float: right;
+
+}
+
+/*Body styles Start*/
+
+.title-header {
+    font-size:xx-large;
+    color: rgb(64, 64, 211);
+    border-right: 1px solid rgb(64, 64, 211);
+    flex-wrap: wrap;
+    display: flex;
+    width: 30%;
+    text-align: right;
+    flex-direction: row-reverse;
+    
+}
+
+.content {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: space-between;
+    justify-content: right;
+    
+}
+
+.content-contact ul {
+    flex-wrap: wrap; 
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;   
+}
+
+.frames {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.content-contact ul li a {
+    margin:10px;
+}
+.content-contact {
+    flex: 2;
+} 
+
+p {
+    flex: 0 66%;
+    margin-left: auto;
+}
