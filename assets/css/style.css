@@ -66,7 +66,7 @@ header nav ul li a {
 .title-header {
     font-size:xx-large;
     color: rgb(64, 64, 211);
-    border-right: 1px solid rgb(64, 64, 211);
+    
     flex-wrap: wrap;
     display: flex;
     width: 30%;
@@ -75,34 +75,34 @@ header nav ul li a {
     
 }
 
+.frames {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .content {
     flex-wrap: wrap;
     display: flex;
     align-items: space-between;
     justify-content: right;
-    
+    flex: 1;
+    line-height: 1.5;
+    padding: 0 10px;
+    margin: 10px 0;
+    border-left: 2px solid rgb(64, 64, 211);
 }
 
 .content-contact ul {
     flex-wrap: wrap; 
     display: flex;
     list-style: none;
-    justify-content: space-evenly;   
-}
-
-.frames {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-evenly;  
 }
 .content-contact ul li a {
     margin:10px;
 }
 .content-contact {
     flex: 2;
+    border-left: 2px solid rgb(64, 64, 211);
 } 
-
-p {
-    flex: 0 66%;
-    margin-left: auto;
-}
